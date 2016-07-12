@@ -18,7 +18,7 @@ currentOwnerName = "";
 pistolArray = compileFinal str
 [
 	// Handguns
-	["PM Pistol", "hgun_Pistol_01_F [APEX]", 25],
+	["PM Pistol", "hgun_Pistol_01_F", 25],
 	["P07 Pistol", "hgun_P07_F", 50],
 	["P07 Pistol (Khaki)", "hgun_P07_khk_F", 50],
 	["Rook-40 Pistol", "hgun_Rook40_F", 50],
