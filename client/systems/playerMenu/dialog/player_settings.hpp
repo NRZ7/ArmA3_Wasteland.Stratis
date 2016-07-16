@@ -173,29 +173,53 @@ class playerSettings {
 			onButtonClick = "setViewDistance 2200;";
 			x = 0.02; y = 0.5;
 			w = 0.125; h = 0.033 * safezoneH;
-		};
+		};*/
 
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
-			text = "Far";
-			onButtonClick = "setViewDistance 3300;";
+			text = "Messages";
+			onButtonClick = "[] execVM 'addons\JTS_PM\JTS_PM.sqf'";
 			x = 0.02; y = 0.57;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 
-		class btnDistanceInsane : w_RscButton {
+		class btnDistanceEffects : w_RscButton {
+			idc = -1;
+			text = "Effects";
+			onButtonClick = "[] execVM '\addons\disableEnvironment\disableEnvironment.sqf'";
+			x = 0.02; y = 0.48;
+			w = 0.125; h = 0.033 * safezoneH;
+		};
+		
+		class TOParmaInfoButton : w_RscButton {
+			idc = -1;
+			text = "Help & Info";
+			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
+			x = 0.228; y = 0.254;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
+		
+		class airdrop : w_RscButton {
+			idc = -1;
+			text = "Airdrop Menu";
+			onButtonClick = "[] execVM 'addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf'";
+			x = 0.158; y = 0.48;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
+		
+		class vdistance : w_RscButton {
+			idc = -1;
+			text = "View Distance";
+			onButtonClick = "call CHVD_fnc_openDialog";
+			x = 0.158; y = 0.57;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
+    
+    /*class btnDistanceInsane : w_RscButton {
 			text = "Insane";
 			onButtonClick = "setViewDistance 5000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;
 		};*/
-
-		class btnDistanceCHVD : w_RscButton {
-			idc = -1;
-			text = "Viewdist.";
-			onButtonClick = "call CHVD_fnc_openDialog";
-			x = 0.02; y = 0.57;
-			w = 0.125; h = 0.033 * safezoneH;
-		};
 	};
 };

@@ -103,6 +103,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\scripts\HvT.sqf";						// Hight Value Target
 	[] execVM "addons\Grenades\initGrenades.sqf"; 			// Toxic Gas Grenades
 	[] execVM "addons\JTS_PM\Functions.sqf";				// JTS_MP
+	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";	// APOC Airdrop
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
 
