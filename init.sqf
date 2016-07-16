@@ -100,6 +100,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\stickyCharges\init.sqf";
 	[] execVM "addons\statusBar\statusBar.sqf";   			// shows FPS and Community Web
+	[] execVM "addons\scripts\HvT.sqf";						// Hight Value Target
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
 
