@@ -102,6 +102,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\statusBar\statusBar.sqf";   			// shows FPS and Community Web
 	[] execVM "addons\scripts\HvT.sqf";						// Hight Value Target
 	[] execVM "addons\Grenades\initGrenades.sqf"; 			// Toxic Gas Grenades
+	[] execVM "addons\JTS_PM\Functions.sqf";				// JTS_MP
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
 

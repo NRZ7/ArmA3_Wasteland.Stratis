@@ -9,6 +9,7 @@
 client_firstSpawn = true;
 
 [] execVM "client\functions\welcomeMessage.sqf";
+[] execVM "addons\scripts\servercredits.sqf"; 			// Intro Credits
 
 player addEventHandler ["Take",
 {
