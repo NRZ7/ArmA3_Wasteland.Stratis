@@ -44,13 +44,26 @@ switch (true) do
 	{
 		if (soundVolume > 0.5) then
 		{
-			0.5 fadeSound 0.2;
-			["You've inserted your earplugs.", 5] call mf_notify_client;
+			0.5 fadeSound 0.25;
+			["Sound reduced to 25%", 5] call mf_notify_client;
 		}
 		else
 		{
 			0.5 fadeSound 1;
-			["You've taken out your earplugs.", 5] call mf_notify_client;
+			["Sound restored to 100%", 5] call mf_notify_client;
+		};
+	// Earplugs2 - Delete Key
+	case (_key in A3W_customKeys_earPlugs2):
+	{
+		if (soundVolume > 0.5) then
+		{
+			0.5 fadeSound 0.07;
+			["Sound reduced to 7%", 5] call mf_notify_client;
+		}
+		else
+		{
+			0.5 fadeSound 1;
+			["Sound restored to 100%", 5] call mf_notify_client;
 		};
 	};
 };
