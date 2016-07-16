@@ -52,6 +52,7 @@ switch (true) do
 			0.5 fadeSound 1;
 			["Sound restored to 100%", 5] call mf_notify_client;
 		};
+	};
 	// Earplugs2 - Delete Key
 	case (_key in A3W_customKeys_earPlugs2):
 	{
