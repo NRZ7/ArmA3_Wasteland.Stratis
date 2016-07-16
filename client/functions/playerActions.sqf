@@ -19,6 +19,9 @@
 
 	["<img image='client\icons\repair.paa'/> Salvage", "client\actions\salvage.sqf", [], 1.1, false, false, "", "!isNull cursorTarget && !alive cursorTarget && {cursorTarget isKindOf 'AllVehicles' && !(cursorTarget isKindOf 'Man') && player distance cursorTarget <= (sizeOf typeOf cursorTarget / 3) max 3}"],
 
+	["<t color='#FFE496'><img image='client\icons\r3f_lock.paa'/> Open Base Menu</t>", "addons\BoS\BoS_selectMenu.sqf", [cursorTarget], -97, false, false, "", "vehicle player == player && {!isNull cursorTarget} && {alive cursorTarget} && {cursortarget iskindof 'Land_Device_assembled_F'} && {(player distance cursortarget) < 5}"],
+	["<t color='#FFE496'><img image='client\icons\take.paa'/> Hack Base</t>", "addons\BoS\BoS_hackBase.sqf", [cursorTarget], -97, false, false, "", "vehicle player == player && {!isNull cursorTarget} && {alive cursorTarget} && {'ToolKit' in (items player)} && {cursorTarget getVariable ['ownerUID',''] != getPlayerUID player} && {cursortarget iskindof 'Land_Device_assembled_F'} && {(player distance cursortarget) < 5}"],		
+	
 	// If you have a custom vehicle licence system, simply remove/comment the following action
 	["<img image='client\icons\r3f_unlock.paa'/> Acquire Vehicle Ownership", "client\actions\takeOwnership.sqf", [cursorTarget], 1, false, false, "", "alive cursorTarget && player distance cursorTarget <= (sizeOf typeOf cursorTarget / 3) max 3 && {{cursorTarget isKindOf _x} count ['LandVehicle','Ship','Air'] > 0 && {locked cursorTarget < 2 && !(cursorTarget getVariable ['objectLocked',false]) && cursorTarget getVariable ['ownerUID','0'] != getPlayerUID player}}"],
 
