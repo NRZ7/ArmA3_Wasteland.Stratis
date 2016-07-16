@@ -38,31 +38,41 @@ for "_i" from 1 to _nbUnits do
 	removeGoggles _unit;
 
 	_unit addVest "V_PlateCarrier1_rgr";
-	_unit addMagazine "30Rnd_556x45_Stanag";
-	_unit addMagazine "30Rnd_556x45_Stanag";
-	_unit addMagazine "30Rnd_556x45_Stanag";
 
 	switch (true) do
 	{
 		// Grenadier every 3 units
 		case (_i % 3 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_vest";
+			_unit addUniform "U_IG_Guerilla1_1";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
-			_unit addWeapon "arifle_TRG21_GL_F";
+			_unit addMagazine "30Rnd_65x39_caseless_green";
+			_unit addWeapon "arifle_Katiba_GL_F";
+			_unit addMagazine "30Rnd_65x39_caseless_green";
+			_unit addMagazine "30Rnd_65x39_caseless_green";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
 			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addMagazine "HandGrenade";
+			_unit addMagazine "HandGrenade";
 		};
 		// RPG every 7 units, starting from second one
 		case ((_i + 5) % 7 == 0):
 		{
-			_unit addUniform "U_B_CombatUniform_mcam_tshirt";
+			_unit addUniform "U_IG_Guerilla1_1";
+			_unit addMagazine "30Rnd_9x21_Mag";
+			_unit addMagazine "30Rnd_9x21_Mag";
+			_unit addMagazine "30Rnd_9x21_Mag";
+			_unit addMagazine "30Rnd_9x21_Mag";
+			_unit addWeapon "SMG_02_F";
+			_unit addPrimaryWeaponItem "optic_Holosight_smg";
+			_unit addPrimaryWeaponItem "acc_pointer_IR";
 			_unit addBackpack "B_Kitbag_mcamo";
-			_unit addWeapon "arifle_TRG20_F";
 			_unit addMagazine "Titan_AT";
 			_unit addWeapon "launch_Titan_short_F";
 			_unit addMagazine "Titan_AT";
 			_unit addMagazine "Titan_AT";
+			_unit addWeapon "NVGoggles";
+			_unit addMagazine "HandGrenade";
 		};
 		// Rifleman
 		default
@@ -71,12 +81,28 @@ for "_i" from 1 to _nbUnits do
 
 			if (_unit == leader _group) then
 			{
-				_unit addWeapon "arifle_TRG21_F";
+				_unit addBackpack "B_AssaultPack_rgr";
+				_unit addMagazine "30Rnd_45ACP_Mag_SMG_01";
+				_unit addMagazine "30Rnd_45ACP_Mag_SMG_01";
+				_unit addMagazine "30Rnd_45ACP_Mag_SMG_01";
+				_unit addMagazine "30Rnd_45ACP_Mag_SMG_01";
+				_unit addWeapon "SMG_01_F";
+				_unit addPrimaryWeaponItem "optic_Arco";
+				_unit addPrimaryWeaponItem "muzzle_snds_acp";
+				_unit addItem "ItemGps";
+				_unit assignItem "ItemGps";
+				_unit addItem "ItemCompass";
+				_unit assignItem "ItemCompass";
 				_unit setRank "SERGEANT";
 			}
 			else
 			{
+				_unit addMagazine "30Rnd_556x45_Stanag_Tracer_Red";
 				_unit addWeapon "arifle_TRG20_F";
+				_unit addPrimaryWeaponItem "optic_Holosight";
+				_unit addMagazine "30Rnd_556x45_Stanag_Tracer_Red";
+				_unit addMagazine "30Rnd_556x45_Stanag_Tracer_Red";
+				_unit addMagazine "30Rnd_556x45_Stanag_Tracer_Red";
 			};
 		};
 	};

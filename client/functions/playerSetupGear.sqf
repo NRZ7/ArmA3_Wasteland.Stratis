@@ -31,33 +31,67 @@ _player unlinkItem "ItemGPS";
 if (hmd _player != "") then { _player unlinkItem hmd _player };
 
 // Add NVG
-_player linkItem "NVGoggles";
+//_player linkItem "NVGoggles";
 
 _player addBackpack "B_AssaultPack_rgr";
 
 _player addMagazine "9Rnd_45ACP_Mag";
 _player addWeapon "hgun_ACPC2_F";
 _player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
+_player addItem "FirstAidKit";
 _player addItem "FirstAidKit";
 _player selectWeapon "hgun_ACPC2_F";
+_player addMagazine "HandGrenade";
 
 switch (true) do
 {
 	case (["_medic_", typeOf _player] call fn_findString != -1):
 	{
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addWeapon "arifle_TRG20_F";
+		_player addPrimaryWeaponItem "acc_flashlight";
+		_player addPrimaryWeaponItem "optic_Aco";
+		_player removeItem "FirstAidKit";
 		_player removeItem "FirstAidKit";
 		_player addItem "Medikit";
+		_player selectWeapon "arifle_TRG20_F";
 	};
 	case (["_engineer_", typeOf _player] call fn_findString != -1):
 	{
+		_player addMagazine "30Rnd_9x21_Mag";
+		_player addMagazine "30Rnd_9x21_Mag";
+		_player addWeapon "SMG_02_F";
+		_player addPrimaryWeaponItem "acc_flashlight";
+		_player addPrimaryWeaponItem "optic_ACO_grn_smg";
+		_player addMagazine "RPG32_F";
+		_player addMagazine "RPG32_F";
+		_player addWeapon "launch_RPG32_F";
 		_player addItem "MineDetector";
 		_player addItem "Toolkit";
+		_player selectWeapon "SMG_02_F";
 	};
 	case (["_sniper_", typeOf _player] call fn_findString != -1):
 	{
+		_player addMagazine "30Rnd_65x39_caseless_mag";
+		_player addMagazine "30Rnd_65x39_caseless_mag";
+		_player addWeapon "arifle_MXM_F";
+		_player addPrimaryWeaponItem "acc_flashlight";
+		_player addPrimaryWeaponItem "optic_MRCO";
 		_player addWeapon "Rangefinder";
+		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
+		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
+		_player selectWeapon "arifle_MXM_F";
+	};
+	case (["_diver_", typeOf _player] call fn_findString != -1):
+	{
+		_player addMagazine "20Rnd_556x45_UW_mag";
+		_player addMagazine "20Rnd_556x45_UW_mag";
+		_player addMagazine "20Rnd_556x45_UW_mag";
+		_player addWeapon "arifle_SDAR_F";
+		_player addItem "DemoCharge_Remote_Mag";
+		_player addItem "DemoCharge_Remote_Mag";
+		_player selectWeapon "arifle_SDAR_F";
 	};
 };
 
