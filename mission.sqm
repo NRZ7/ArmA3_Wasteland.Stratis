@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=334;
+		nextID=347;
 	};
 	class Camera
 	{
-		pos[]={2492.7727,429.07739,3012.0864};
-		dir[]={0.83568001,-0.50965029,0.20494403};
-		up[]={0.49502337,0.8603543,0.12139998};
-		aside[]={0.23819442,6.5809581e-007,-0.97126973};
+		pos[]={3314.4026,322.29059,5547.019};
+		dir[]={0.53009295,-0.086928241,-0.84354389};
+		up[]={0.046295129,0.99620402,-0.073671535};
+		aside[]={-0.84674662,-4.6228524e-007,-0.53210223};
 	};
 };
 binarizationWanted=0;
@@ -3794,11 +3794,12 @@ class Mission
 		class Item94
 		{
 			dataType="Marker";
-			position[]={2622.4771,64.832314,649.56006};
+			position[]={2635,64.5448,641.5};
 			name="heliSpawn_14";
 			type="Empty";
 			colorName="ColorGreen";
 			id=248;
+			atlOffset=-0.78144836;
 		};
 		class Item95
 		{
@@ -4544,13 +4545,13 @@ class Mission
 		class Item166
 		{
 			dataType="Marker";
-			position[]={6433.0796,7.9677491,5390.5801};
+			position[]={6406.625,8.0451317,5362.25};
 			name="TERRITORY_KAMINO_FIRING_RANGE";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorYellow";
 			fillName="DiagGrid";
-			a=42;
+			a=90.97155;
 			b=68;
 			angle=131.698;
 			id=320;
@@ -14500,7 +14501,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2898.4729,4.8246002,6032.7231};
+				position[]={2898.4729,4.8244238,6032.7231};
 				angles[]={6.2670932,3.6228848,0.0091455253};
 			};
 			side="Empty";
@@ -14511,7 +14512,7 @@ class Mission
 			};
 			id=1571;
 			type="Land_Atm_02_F";
-			atlOffset=2.0351763;
+			atlOffset=2.0349998;
 		};
 		class Item683
 		{
@@ -18262,7 +18263,7 @@ class Mission
 			name="ForestMission_1";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1935;
 			atlOffset=1.1249798e+021;
 		};
@@ -18273,7 +18274,7 @@ class Mission
 			name="ForestMission_2";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1936;
 			atlOffset=-25.987701;
 		};
@@ -18284,7 +18285,7 @@ class Mission
 			name="ForestMission_3";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1937;
 			atlOffset=-37.966362;
 		};
@@ -18295,7 +18296,7 @@ class Mission
 			name="ForestMission_4";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1938;
 		};
 		class Item892
@@ -18305,7 +18306,7 @@ class Mission
 			name="ForestMission_5";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1939;
 			atlOffset=-4.3306122;
 		};
@@ -18316,7 +18317,7 @@ class Mission
 			name="ForestMission_6";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1940;
 		};
 		class Item894
@@ -18326,7 +18327,7 @@ class Mission
 			name="ForestMission_7";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1941;
 			atlOffset=4.9897461;
 		};
@@ -18337,7 +18338,7 @@ class Mission
 			name="ForestMission_8";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1942;
 			atlOffset=-66.597763;
 		};
@@ -18348,7 +18349,7 @@ class Mission
 			name="ForestMission_9";
 			type="Empty";
 			colorName="ColorBlue";
-			angle=182.45401;
+			angle=182.45399;
 			id=1943;
 			atlOffset=9.9231262;
 		};
@@ -18359,7 +18360,7 @@ class Mission
 			name="SniperMission_1";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1944;
 			atlOffset=1.1249798e+021;
 		};
@@ -18370,7 +18371,7 @@ class Mission
 			name="SniperMission_10";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1945;
 			atlOffset=7.8338318;
 		};
@@ -18381,7 +18382,7 @@ class Mission
 			name="SniperMission_2";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1946;
 			atlOffset=3.7125092;
 		};
@@ -18392,7 +18393,7 @@ class Mission
 			name="SniperMission_3";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1947;
 			atlOffset=6.3731232;
 		};
@@ -18403,7 +18404,7 @@ class Mission
 			name="SniperMission_4";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1948;
 			atlOffset=-22.151749;
 		};
@@ -18414,7 +18415,7 @@ class Mission
 			name="SniperMission_5";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1949;
 		};
 		class Item903
@@ -18424,20 +18425,20 @@ class Mission
 			name="SniperMission_6";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1950;
 			atlOffset=-10.60498;
 		};
 		class Item904
 		{
 			dataType="Marker";
-			position[]={4615,132.06189,6609.25};
+			position[]={4544.625,134.74719,6640.875};
 			name="SniperMission_7";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1951;
-			atlOffset=-21.966858;
+			atlOffset=-35.725311;
 		};
 		class Item905
 		{
@@ -18446,7 +18447,7 @@ class Mission
 			name="SniperMission_8";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1952;
 		};
 		class Item906
@@ -18456,7 +18457,7 @@ class Mission
 			name="SniperMission_9";
 			type="Empty";
 			colorName="ColorEAST";
-			angle=182.45401;
+			angle=182.45399;
 			id=1953;
 		};
 		class Item907
@@ -18466,7 +18467,7 @@ class Mission
 			name="VehStore4_landSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=182.45401;
+			angle=182.45399;
 			id=1954;
 			atlOffset=1.2302184e+025;
 		};
@@ -18477,7 +18478,7 @@ class Mission
 			name="VehStore4_heliSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=182.45401;
+			angle=182.45399;
 			id=1955;
 			atlOffset=1.1031942e+025;
 		};
@@ -18490,8 +18491,8 @@ class Mission
 			type="Empty";
 			colorName="ColorYellow";
 			fillName="DiagGrid";
-			a=58.132;
-			b=85.393997;
+			a=69.372993;
+			b=97.922211;
 			angle=344.612;
 			id=1956;
 			atlOffset=3.4039805e+025;
@@ -18505,8 +18506,8 @@ class Mission
 			type="Empty";
 			colorName="ColorYellow";
 			fillName="DiagGrid";
-			a=124.382;
-			b=158.855;
+			a=139.44461;
+			b=176.04344;
 			angle=118.84599;
 			id=1957;
 			atlOffset=4.0938095e+023;
@@ -18514,17 +18515,17 @@ class Mission
 		class Item911
 		{
 			dataType="Marker";
-			position[]={2119.875,-5.5206048e-024,4744.5};
+			position[]={2123.5,0,4743.375};
 			name="TERRITORY_GHOST_HOTEL";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorYellow";
 			fillName="DiagGrid";
-			a=58.132;
+			a=64.013718;
 			b=85.393997;
 			angle=20.764;
 			id=1958;
-			atlOffset=-1.805625;
+			atlOffset=-1.8415625;
 		};
 		class Item912
 		{
