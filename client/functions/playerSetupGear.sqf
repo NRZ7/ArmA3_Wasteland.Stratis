@@ -77,8 +77,9 @@ switch (true) do
 		_player addMagazine "30Rnd_65x39_caseless_mag";
 		_player addWeapon "arifle_MXM_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
-		_player addPrimaryWeaponItem "optic_Aco";
+		_player addPrimaryWeaponItem "optic_MRCO";
 		_player addWeapon "Rangefinder";
+		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
 		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
 		_player selectWeapon "arifle_MXM_F";
 	};
@@ -88,8 +89,8 @@ switch (true) do
 		_player addMagazine "20Rnd_556x45_UW_mag";
 		_player addMagazine "20Rnd_556x45_UW_mag";
 		_player addWeapon "arifle_SDAR_F";
-		_player addItem "SatchelCharge_Remote_Mag";
-		_player addItem "SatchelCharge_Remote_Mag";
+		_player addItem "DemoCharge_Remote_Mag";
+		_player addItem "DemoCharge_Remote_Mag";
 		_player selectWeapon "arifle_SDAR_F";
 	};
 };
