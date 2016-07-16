@@ -51,7 +51,8 @@ lootWeapon_list =
 			"SMG_02_F",                         // Sting 9mm
 			"srifle_EBR_F",
 			"srifle_GM6_F",
-			"srifle_LRR_F"
+			"srifle_LRR_F",
+			"NVGoggles"
 		]
 	],
 	[ // INDUSTRIAL
@@ -77,7 +78,8 @@ lootWeapon_list =
 			"arifle_MX_GL_F",
 			"Rangefinder",
 			"srifle_GM6_F",
-			"srifle_LRR_F"
+			"srifle_LRR_F",
+			"NVGoggles"
 		]
 	]
 ];
