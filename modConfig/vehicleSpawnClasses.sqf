@@ -27,12 +27,12 @@ lightMilitaryVehicles =
 ];
 
 //Medium Military Vehicle List - Random Spawns
-mediumMilitaryVehicles =
-[
-	"B_MRAP_01_F",
-	"O_MRAP_02_F",
-	"I_MRAP_03_F"
-];
+//mediumMilitaryVehicles =
+//[
+//	"B_MRAP_01_F",
+//	"O_MRAP_02_F",
+//	"I_MRAP_03_F"
+//];
 
 //Water Vehicles - Random Spawns
 waterVehicles =
