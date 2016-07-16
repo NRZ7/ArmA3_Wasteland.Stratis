@@ -51,7 +51,7 @@ _role3names = ["www.DayzStandaRol.com"];
 _role4 = "Servidor TeamSpeak 3 [ESP]:";
 _role4names = ["standarol.servegame.com"];
 _role5 = "Useful Keyboard Shortcuts";
-_role5names = ["END & DEL - Earplugs <br /> Windows - Nicks <br /> CTRL+R - Mag Repack"];
+_role5names = ["END and DEL - Earplugs <br /> Windows - Nicks <br /> CTRL+R - Mag Repack"];
  
 {
 	sleep 2;

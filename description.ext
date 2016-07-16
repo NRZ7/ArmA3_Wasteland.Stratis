@@ -70,6 +70,10 @@ briefing = 0; // if 0, skip Continue button
 #include "addons\parking\list_simple_menu.hpp"
 #include "addons\CHVD\dialog.hpp"
 #include "addons\JTS_PM\PM_Compact.hpp"
+#include "addons\TOParmaInfo\dialog\TOParmaInfo_dialog.hpp"
+#include "addons\BoS\dialog\BoS_mainMenu.hpp"
+#include "addons\AF_Keypad\AF_KP_defines.hpp"
+#include "addons\AF_Keypad\AF_KP_dialogs.hpp"
 
 class RscTitles
 {

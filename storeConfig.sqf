@@ -782,6 +782,7 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
+	["Base Locker", "Land_Device_assembled_F", 15000, "object"],  //Cael817, SNAFU,Used for base operations <-- Destroyable
 	["Camo Ammo Cache", "Box_FIA_Support_F", 1000, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
 	//["Toilet Box", "Land_ToiletBox_F", 25, "object"],
