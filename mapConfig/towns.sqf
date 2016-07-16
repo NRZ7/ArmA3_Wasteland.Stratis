@@ -24,5 +24,8 @@
 	["Town_17", 175, "Tsoukalia"],
 	["Town_18", 100, "LZ Connor"],
 	["Town_19", 180, "Playa-del-Stragos"],
-	["Town_20", 250, "ol-Jay"]
+	["Town_20", 250, "ol-Jay"],
+	["Town_Black_Mesa", 250, "Black Mesa"],
+	["Town_Ghost_Hotel", 200, "Ghost Hotel"],
+	["Town_Stratis_Reborn", 250, "Stratis Reborn"]
 ]

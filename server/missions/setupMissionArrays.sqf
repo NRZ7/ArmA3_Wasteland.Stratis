@@ -27,7 +27,8 @@ SideMissions =
 	["mission_SunkenSupplies", 1],
 	["mission_TownInvasion", 2],
 	["mission_Outpost", 3],
-	["mission_Truck", 1]
+	["mission_Truck", 1],
+	["mission_Sniper", 1]	
 ];
 
 MoneyMissions =
@@ -39,6 +40,8 @@ MoneyMissions =
 MissionSpawnMarkers = (allMapMarkers select {["Mission_", _x] call fn_startsWith}) apply {[_x, false]};
 ForestMissionMarkers = (allMapMarkers select {["ForestMission_", _x] call fn_startsWith}) apply {[_x, false]};
 SunkenMissionMarkers = (allMapMarkers select {["SunkenMission_", _x] call fn_startsWith}) apply {[_x, false]};
+SniperMissionMarkers = (allMapMarkers select {["SniperMission_", _x] call fn_startsWith}) apply {[_x, false]};
+
 
 if !(ForestMissionMarkers isEqualTo []) then
 {
