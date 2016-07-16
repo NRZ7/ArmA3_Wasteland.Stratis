@@ -1041,6 +1041,7 @@ colorsArray = compileFinal str
 			["Blood", _texDir + "nazi.paa"],
 			["Bloodshot", _texDir + "bloodshot.paa"],
 			["Confederate", _texDir + "confederate.paa"],
+			["Desert", _texDir + "denim.paa"],
 			["Digital", _texDir + "digi.paa"],
 			["Digital Black", _texDir + "digi_black.paa"],
 			["Digital Desert", _texDir + "digi_desert.paa"],
