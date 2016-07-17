@@ -53,6 +53,7 @@ switch (true) do
 			["Sound restored to 100%", 5] call mf_notify_client;
 		};
 	};
+	
 	// Earplugs2 - Delete Key
 	case (_key in A3W_customKeys_earPlugs2):
 	{
@@ -67,6 +68,12 @@ switch (true) do
 			["Sound restored to 100%", 5] call mf_notify_client;
 		};
 	};
+	
+	// Zeus Key
+    case ( _key in actionKeys "CuratorInterface" && (getPlayerUID player in call zeusAdmins)):
+    {
+        execVM "addons\aj\zeus\refreshzeus.sqf";
+    };
 };
 
 // ********** Action keys **********
