@@ -10,7 +10,7 @@ MainMissions =
 [
 	// Mission filename, weight
 	["mission_ArmedDiversquad", 1],
-	["mission_Coastal_Convoy", 1],
+	["mission_Coastal_Convoy", 0.5],
 	["mission_Convoy", 1],
 	["mission_HostileHeliFormation", 0.5],
 	["mission_APC", 1],
@@ -24,17 +24,17 @@ SideMissions =
 [
 	["mission_HostileHelicopter", 0.5],
 	["mission_MiniConvoy", 1],
-	["mission_SunkenSupplies", 1],
+	["mission_SunkenSupplies", 0.5],
 	["mission_TownInvasion", 2],
 	["mission_Outpost", 3],
 	["mission_Truck", 1],
-	["mission_Sniper", 1]	
+	["mission_Sniper", 2]	
 ];
 
 MoneyMissions =
 [
 	["mission_MoneyShipment", 1],
-	["mission_SunkenTreasure", 1]
+	["mission_SunkenTreasure", 0.5]
 ];
 
 MissionSpawnMarkers = (allMapMarkers select {["Mission_", _x] call fn_startsWith}) apply {[_x, false]};
@@ -47,8 +47,8 @@ if !(ForestMissionMarkers isEqualTo []) then
 {
 	SideMissions append
 	[
-		["mission_AirWreck", 3],
-		["mission_WepCache", 3]
+		["mission_AirWreck", 2],
+		["mission_WepCache", 2]
 	];
 };
 
