@@ -6,7 +6,7 @@
 //	@file Author: AgentRev
 //	@file Created: 22/12/2013 22:04
 
-private ["_unit", "_item", "_side", "_isSniper", "_isDiver", "_defaultVest", "_result"];
+private ["_unit", "_item", "_side", "_isMedic", "_isSniper", "_isDiver", "_defaultVest", "_result"];
 
 _unit = _this select 0;
 _item = _this select 1;
@@ -21,6 +21,7 @@ else
 	_side = _this select 2;
 };
 
+_isMedic = (["_medic_", _unit] call fn_findString != -1);
 _isSniper = (["_sniper_", _unit] call fn_findString != -1);
 _isDiver = (["_diver_", _unit] call fn_findString != -1);
 
@@ -34,10 +35,15 @@ switch (_side) do
 	{
 		switch (true) do
 		{
+			case (_isMedic):
+			{
+				if (_item == "uniform") then { _result = "U_B_CombatUniform_mcam" };
+				if (_item == "vest") then { _result = "V_BandollierB_khk" };
+			};
 			case (_isSniper):
 			{
 				if (_item == "uniform") then { _result = "U_B_Ghilliesuit" };
-				if (_item == "vest") then { _result = _defaultVest };
+				if (_item == "vest") then { _result = "V_PlateCarrier2_rgr" };
 			};
 			case (_isDiver):
 			{
@@ -58,10 +64,15 @@ switch (_side) do
 	{
 		switch (true) do
 		{
+			case (_isMedic):
+			{
+				if (_item == "uniform") then { _result = "U_O_OfficerUniform_ocamo" };
+				if (_item == "vest") then { _result = "V_BandollierB_khk" };
+			};
 			case (_isSniper):
 			{
 				if (_item == "uniform") then { _result = "U_O_Ghilliesuit" };
-				if (_item == "vest") then { _result = _defaultVest };
+				if (_item == "vest") then { _result = "V_PlateCarrier2_rgr" };
 			};
 			case (_isDiver):
 			{
@@ -82,10 +93,15 @@ switch (_side) do
 	{
 		switch (true) do
 		{
+			case (_isMedic):
+			{
+				if (_item == "uniform") then { _result = "U_I_CombatUniform" };
+				if (_item == "vest") then { _result = "V_BandollierB_khk" };
+			};
 			case (_isSniper):
 			{
 				if (_item == "uniform") then { _result = "U_I_Ghilliesuit" };
-				if (_item == "vest") then { _result = _defaultVest };
+				if (_item == "vest") then { _result = "V_PlateCarrier2_rgr" };
 			};
 			case (_isDiver):
 			{
