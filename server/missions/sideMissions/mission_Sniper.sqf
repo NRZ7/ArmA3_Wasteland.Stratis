@@ -11,7 +11,7 @@ private ["_positions", "_box1", "_box2", "_missionPos", "_randomBox", "_randomBo
 
 _setupVars =
 {
-	_missionType = "Snipers";
+	_missionType = "Snipers (Thermal Scope)";
 	_locationsArray = SniperMissionMarkers;
 };
 

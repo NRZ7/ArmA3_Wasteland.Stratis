@@ -161,7 +161,7 @@ _man8 addVest "V_HarnessOSpec_brn";
 _man8 addBackpack "B_Carryall_oli";
 _man8 addMagazine "10Rnd_762x54_Mag";
 _man8 addWeapon "srifle_DMR_01_F";
-_man8 addPrimaryWeaponItem "optic_DMS";
+_man8 addPrimaryWeaponItem "optic_tws";
 _man8 addMagazine "10Rnd_762x54_Mag";
 _man8 addMagazine "10Rnd_762x54_Mag";
 _man8 addMagazine "Titan_AA";
