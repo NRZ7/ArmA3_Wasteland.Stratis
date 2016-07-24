@@ -40,15 +40,13 @@ _failedExec =
 _successExec =
 {
 	// Mission completed
-	_randomBox = ["mission_USLaunchers","mission_HVLaunchers","mission_HVSniper"] call BIS_fnc_selectRandom;
-	_randomBox2 = ["mission_USSpecial","mission_Main_A3snipers","mission_DLCLMGs"] call BIS_fnc_selectRandom;
 	_box1 = createVehicle ["Box_East_WpsSpecial_F", _missionPos, [], 2, "None"];
 	_box1 setDir random 360;
-	[_box1, _randomBox] call fn_refillbox;
+	[_box1, "mission_USLaunchers"] call fn_refillbox;
 	
 	_box2 = createVehicle ["Box_IND_WpsSpecial_F", _missionPos, [], 2, "None"];
 	_box2 setDir random 360;
-	[_box2, _randomBox2] call fn_refillbox;
+	[_box2, "mission_Main_A3snipers"] call fn_refillbox;
 
 	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1, _box2];
 	
