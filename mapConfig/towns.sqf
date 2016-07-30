@@ -27,5 +27,7 @@
 	["Town_20", 250, "ol-Jay"],
 	["Town_Black_Mesa", 250, "Black Mesa"],
 	["Town_Ghost_Hotel", 200, "Ghost Hotel"],
-	["Town_Stratis_Reborn", 250, "Stratis Reborn"]
+	["Town_Stratis_Reborn", 250, "Stratis Reborn"],
+	["Town_Smugglers", 150, "Smugglers Dock"],
+	["Town_Kreka", 200, "Kreka"]
 ]
