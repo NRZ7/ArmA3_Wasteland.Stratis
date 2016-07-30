@@ -65,9 +65,9 @@ switch (true) do
 	case (["_engineer_", typeOf _player] call fn_findString != -1):
 	{
 		_player addBackpack "B_Kitbag_sgg";
-		_player addMagazine "30Rnd_556x45_Stanag";
-		_player addMagazine "30Rnd_556x45_Stanag";
-		_player addWeapon "arifle_Mk20_F";
+		_player addMagazine "30Rnd_65x39_caseless_mag";
+		_player addMagazine "30Rnd_65x39_caseless_mag";
+		_player addWeapon "arifle_MXC_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
 		_player addPrimaryWeaponItem "optic_Hamr";
 		_player addMagazine "RPG32_F";
@@ -75,20 +75,20 @@ switch (true) do
 		_player addWeapon "launch_RPG32_F";
 		_player addItem "MineDetector";
 		_player addItem "Toolkit";
-		_player selectWeapon "arifle_Mk20_F";
+		_player selectWeapon "arifle_MXC_F";
 	};
 	case (["_sniper_", typeOf _player] call fn_findString != -1):
 	{
 		_player addBackpack "B_AssaultPack_rgr";
-		_player addMagazine "30Rnd_65x39_caseless_mag";
-		_player addMagazine "30Rnd_65x39_caseless_mag";
-		_player addWeapon "arifle_MXM_F";
+		_player addMagazine "10Rnd_762x54_Mag";
+		_player addMagazine "10Rnd_762x54_Mag";
+		_player addWeapon "srifle_DMR_01_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
-		_player addPrimaryWeaponItem "optic_MRCO";
+		_player addPrimaryWeaponItem "optic_DMS";
 		_player addWeapon "Rangefinder";
 		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
 		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
-		_player selectWeapon "arifle_MXM_F";
+		_player selectWeapon "srifle_DMR_01_F";
 	};
 	case (["_diver_", typeOf _player] call fn_findString != -1):
 	{
