@@ -26,7 +26,7 @@ SideMissions =
 	["mission_MiniConvoy", 1],
 	["mission_SunkenSupplies", 0.5],
 	["mission_TownInvasion", 2],
-	["mission_Outpost", 3],
+	["mission_Outpost", 4],
 	["mission_Truck", 1],
 	["mission_Sniper", 1]	
 ];
