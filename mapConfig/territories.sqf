@@ -12,8 +12,8 @@
 // 4 - Territory category, currently unused. See territory/README.md for details.
 
 [
-	["TERRITORY_AGIA_NORTH", "North Agia Marina", 1000, "TOWN"],
-	["TERRITORY_AGIA_SOUTH", "South Agia Marina", 1000, "TOWN"],
+	["TERRITORY_AGIA_NORTH", "North Agia Marina", 1500, "TOWN"],
+	["TERRITORY_AGIA_SOUTH", "South Agia Marina", 1500, "TOWN"],
 	["TERRITORY_AGIOS_CEPHAS", "Agios Cephas", 800, "TOWN"],
 	["TERRITORY_AGIOS_IOANNIS", "Agios Ioannis", 800, "TOWN"],
 	["TERRITORY_AIRBASE_NORTH", "North Stratis Airbase", 1500, "AIRBASE"],
@@ -34,5 +34,6 @@
 	["TERRITORY_RADIO_TOWERS", "Radio Towers", 600, "MILITARY"],
 	["TERRITORY_STRATIS_REBORN", "Stratis Reborn", 1000, "MILITARY"],
 	["TERRITORY_GHOST_HOTEL", "Ghost Hotel", 800, "TOWN"],
-	["TERRITORY_BLACK_MESA", "Black Mesa", 800, "TOWN"]
+	["TERRITORY_BLACK_MESA", "Black Mesa", 800, "TOWN"],
+	["TERRITORY_KREKA", "Kreka", 1000, "TOWN"]
 ]

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2123;
+		nextID=2124;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=542;
+		nextID=555;
 	};
 	class Camera
 	{
-		pos[]={3773.2734,92.313675,7992.9565};
-		dir[]={-0.0800284,-0.89234382,-0.44448298};
-		up[]={-0.15811263,0.45135593,-0.87819338};
-		aside[]={-0.98429722,-1.6858394e-006,0.17722118};
+		pos[]={4350.2271,611.61371,5748.9004};
+		dir[]={-0.071334206,-0.39234689,-0.91718155};
+		up[]={-0.030430285,0.91972208,-0.39131853};
+		aside[]={-0.99711114,-1.3249046e-006,0.077549487};
 	};
 };
 binarizationWanted=0;
@@ -265,7 +265,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=974;
+		items=975;
 		class Item0
 		{
 			dataType="Group";
@@ -469,7 +469,6 @@ class Mission
 					};
 					id=2090;
 					type="B_G_Soldier_exp_F";
-					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -702,7 +701,7 @@ class Mission
 					};
 					id=2092;
 					type="B_G_Soldier_exp_F";
-					atlOffset=0.001999855;
+					atlOffset=0.0020003319;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1872,6 +1871,7 @@ class Mission
 					};
 					id=2101;
 					type="O_G_Soldier_exp_F";
+					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21083,6 +21083,21 @@ class Mission
 			colorName="ColorRed";
 			id=2056;
 			atlOffset=9.2734148e+034;
+		};
+		class Item974
+		{
+			dataType="Marker";
+			position[]={3796.6609,8.717158e+015,4744.1621};
+			name="TERRITORY_KREKA";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=81.446831;
+			b=122.67773;
+			angle=331.92719;
+			id=2123;
+			atlOffset=8.717158e+015;
 		};
 	};
 };
