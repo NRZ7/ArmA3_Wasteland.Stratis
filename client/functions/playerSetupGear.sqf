@@ -48,16 +48,16 @@ switch (true) do
 	case (["_medic_", typeOf _player] call fn_findString != -1):
 	{
 		_player addBackpack "B_FieldPack_oli";
-		_player addMagazine "30Rnd_556x45_Stanag";
-		_player addMagazine "30Rnd_556x45_Stanag";
-		_player addWeapon "arifle_TRG20_F";
+		_player addMagazine "30Rnd_65x39_caseless_green";
+		_player addMagazine "30Rnd_65x39_caseless_green";
+		_player addWeapon "arifle_Katiba_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
-		_player addPrimaryWeaponItem "optic_Aco";
+		_player addPrimaryWeaponItem "optic_Holosight";
 		_player removeItem "FirstAidKit";
 		_player removeItem "FirstAidKit";
 		_player removeItem "FirstAidKit";
 		_player addItem "Medikit";
-		_player selectWeapon "arifle_TRG20_F";
+		_player selectWeapon "arifle_Katiba_F";
 		_player addMagazine "HandGrenade";
 		_player addMagazine "SmokeShell";
 		_player addMagazine "SmokeShell";
@@ -101,6 +101,21 @@ switch (true) do
 		_player addItem "DemoCharge_Remote_Mag";
 		_player selectWeapon "arifle_SDAR_F";
 		_player addMagazine "HandGrenade";
+	};
+	case (["_soldier_GL_", typeOf _player] call fn_findString != -1):
+	{
+		_player addBackpack "B_FieldPack_oli";
+		_player addMagazine "1Rnd_HE_Grenade_shell";
+		_player addMagazine "1Rnd_HE_Grenade_shell";
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addWeapon "arifle_TRG21_GL_F";
+		_player addPrimaryWeaponItem "optic_Arco";
+		_player selectWeapon "arifle_TRG21_GL_F";
+		_player addMagazine "HandGrenade";
+		_player addMagazine "HandGrenade";
+		_player addMagazine "SmokeShellYellow";
+		_player addMagazine "SmokeShellYellow";
 	};
 };
 
