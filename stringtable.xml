@@ -54,8 +54,8 @@
 			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;* Estas en el equipo  &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;* Eres libre de &lt;t color="#00aa00"&gt;ATACAR A TODOS&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO SPAMEAR EL VOIP&lt;/t&gt;&lt;br/&gt;* Puedes ver las normas de servidor en el mapa.&lt;br/&gt;* El servidor puede ser reiniciado por decisión de un admin&lt;/t&gt;</Spanish>
 		</Key>
 		<Key ID="STR_WL_MapMoreInfo">
-			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions at http://www.DayzStandaRol.com/ &lt;br/&gt;Server restarts at 04h, 12h and 20h CEST.&lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</English>
-			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;Reporta errores y sugerencias a http://www.DayzStandaRol.com/ &lt;br/&gt;El servidor reinicia a las 04h, 12h y 20h CEST.&lt;br/&gt;Pulsa la tecla Windows para ver los nicks&lt;br/&gt;La tecla FIN para tapones del oido&lt;br/&gt;Para más info mira al mapa&lt;br/&gt;</English>
+			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions at http://www.DayzStandaRol.com/ &lt;br/&gt;Server restarts at 04h, 12h and 20h CEST.&lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End or DEL key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</English>
+			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;Reporta errores y sugerencias a http://www.DayzStandaRol.com/ &lt;br/&gt;El servidor reinicia a las 04h, 12h y 20h CEST.&lt;br/&gt;Pulsa la tecla Windows para ver los nicks&lt;br/&gt;La tecla FIN y SUPRIMIR para tapones del oido&lt;br/&gt;Para más info mira al mapa&lt;br/&gt;</English>
 			<!-- &lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;[Update X]&lt;/t&gt;&lt;br/&gt; -->
 		</Key>
 	</Package>
