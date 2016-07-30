@@ -52,7 +52,7 @@ switch (true) do
 		_player addMagazine "30Rnd_65x39_caseless_green";
 		_player addWeapon "arifle_Katiba_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
-		_player addPrimaryWeaponItem "optic_Holosight";
+		_player addPrimaryWeaponItem "optic_Arco";
 		_player removeItem "FirstAidKit";
 		_player removeItem "FirstAidKit";
 		_player removeItem "FirstAidKit";
@@ -69,7 +69,7 @@ switch (true) do
 		_player addMagazine "30Rnd_556x45_Stanag";
 		_player addWeapon "arifle_Mk20_F";
 		_player addPrimaryWeaponItem "acc_flashlight";
-		_player addPrimaryWeaponItem "optic_Holosight";
+		_player addPrimaryWeaponItem "optic_Hamr";
 		_player addMagazine "RPG32_F";
 		_player addMagazine "RPG32_F";
 		_player addWeapon "launch_RPG32_F";
@@ -128,15 +128,13 @@ switch (true) do
 		_player addPrimaryWeaponItem "optic_Arco";
 		_player selectWeapon "arifle_Mk20_plain_F";
 		_player addMagazine "HandGrenade";
-		_player addMagazine "HandGrenade";
 		_player addItem "MineDetector";
 		_player addItem "DemoCharge_Remote_Mag";
 		_player addItem "DemoCharge_Remote_Mag";
 		_player addItem "SatchelCharge_Remote_Mag";
-		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
-		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
 		_player addItem "APERSMine_Range_Mag";
 		_player addItem "APERSMine_Range_Mag";
+		_player addItem "ATMine_Range_Mag";
 	};
 };
 
