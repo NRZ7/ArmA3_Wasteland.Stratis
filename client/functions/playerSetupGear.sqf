@@ -117,6 +117,25 @@ switch (true) do
 		_player addMagazine "SmokeShellYellow";
 		_player addMagazine "SmokeShellYellow";
 	};
+	case (["_soldier_exp_", typeOf _player] call fn_findString != -1):
+	{
+		_player addBackpack "B_FieldPack_oli";
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addMagazine "30Rnd_556x45_Stanag";
+		_player addWeapon "arifle_Mk20_plain_F";
+		_player addPrimaryWeaponItem "optic_Arco";
+		_player selectWeapon "arifle_Mk20_plain_F";
+		_player addMagazine "HandGrenade";
+		_player addMagazine "HandGrenade";
+		_player addItem "MineDetector";
+		_player addItem "DemoCharge_Remote_Mag";
+		_player addItem "DemoCharge_Remote_Mag";
+		_player addItem "SatchelCharge_Remote_Mag";
+		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
+		_player addItem "ClaymoreDirectionalMine_Remote_Mag";
+		_player addItem "APERSMine_Range_Mag";
+		_player addItem "APERSMine_Range_Mag";
+	};
 };
 
 if (_player == player) then
