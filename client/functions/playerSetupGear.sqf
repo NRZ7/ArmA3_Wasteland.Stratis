@@ -73,7 +73,6 @@ switch (true) do
 		_player addMagazine "RPG32_F";
 		_player addMagazine "RPG32_F";
 		_player addWeapon "launch_RPG32_F";
-		_player addItem "MineDetector";
 		_player addItem "Toolkit";
 		_player selectWeapon "arifle_MXC_F";
 	};
