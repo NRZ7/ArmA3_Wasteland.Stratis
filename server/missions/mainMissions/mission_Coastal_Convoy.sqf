@@ -10,7 +10,7 @@
 if (!isServer) exitwith {};
 #include "mainMissionDefines.sqf"
 
-private ["_vehChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_vehicleName2", "_numWaypoints", "_box1", "_box2", "_box3"];
+private ["_vehChoices", "_convoyVeh", "_veh1", "_veh2", "_veh3", "_createVehicle", "_vehicles", "_leader", "_speedMode", "_waypoint", "_vehicleName", "_vehicleName2", "_numWaypoints", "_box1", "_box2", "_box3", "_randomBox", "_randomBox2"];
 
 _setupVars =
 {
@@ -166,17 +166,20 @@ _successExec =
 {
 	// Mission completed
 
+	_randomBox = ["mission_USLaunchers","mission_Main_A3snipers","mission_Custom_Explosives"] call BIS_fnc_selectRandom;
+	_randomBox2 = ["mission_USSpecial","mission_Custom_1","mission_Custom_LMG"] call BIS_fnc_selectRandom;
+	
 	_box1 = createVehicle ["Box_NATO_Wps_F", _lastPos, [], 5, "None"];
 	_box1 setDir random 360;
-	[_box1, "mission_USSpecial"] call fn_refillbox;
+	[_box1, _randomBox] call fn_refillbox;
 
-	_box2 = createVehicle ["Box_East_Wps_F", _lastPos, [], 5, "None"];
+	_box2 = createVehicle ["Box_East_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box2 setDir random 360;
-	[_box2, "mission_USLaunchers"] call fn_refillbox;
+	[_box2, _randomBox2] call fn_refillbox;
 
 	_box3 = createVehicle ["Box_IND_WpsSpecial_F", _lastPos, [], 5, "None"];
 	_box3 setDir random 360;
-	[_box3, "mission_Main_A3snipers"] call fn_refillbox;
+	[_box3, "mission_Custom_Wear"] call fn_refillbox;
 
 	_successHintMessage = "The patrol has been stopped, the ammo crates are yours to take. Find them near the wreck!";
 };
